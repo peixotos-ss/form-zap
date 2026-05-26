@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    width: 350px;
+    background-color: rgb(240, 233, 224);
+    border-radius: 8px;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.barrawhatsapp{
+    background-color: #008f5a;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px 8px 0 0;
+}
+
+.barrawhatsapp img{
+    width: 25px;
+}
+
+.barrawhatsapp span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mensagem{
+    background-color: white;
+    width: 85%;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+form{
+    width: 85%;
+    margin: auto;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+button{
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #008f5a;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #006f46;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 25px;
+    color: #666;
+    font-size: 14px;
+}
